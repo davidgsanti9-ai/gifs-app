@@ -1,59 +1,74 @@
-# GifsAppRepaso
+# 🎬 Gifs App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+Aplicación web para buscar y visualizar GIFs animados utilizando la API de Giphy. Proyecto desarrollado con Angular 19 como parte de mi aprendizaje en desarrollo frontend.
 
-## Development server
+![App Screenshot](./screenshots/home.png)
 
-To start a local development server, run:
+## 🚀 Demo
 
+🔗 **[Ver demo en vivo](https://dgs-gifs-app.netlify.app/dashboard/trending)**
+
+## ✨ Características
+
+- 🔍 Búsqueda de GIFs en tiempo real
+- 💾 Historial de búsquedas
+- ⚡ Carga rápida y optimizada
+- 🎨 Interfaz intuitiva y moderna
+
+## 🛠️ Tecnologías
+
+- Angular 19
+- TypeScript
+- Giphy API
+- CSS3 / Tailwind
+- Netlify (deployment)
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/gifs-app-repaso.git
+```
+
+2. Instala las dependencias:
+```bash
+cd gifs-app-repaso
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Abre tu navegador en `http://localhost:4200/`
 
-## Code scaffolding
+## 🔑 API Key
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Este proyecto utiliza la API pública de Giphy. La API key está incluida en el código para propósitos de demostración. Si deseas usar tu propia key:
 
-```bash
-ng generate component component-name
-```
+1. Obtén una API key gratuita en [Giphy Developers](https://developers.giphy.com/)
+2. Reemplaza el valor en `src/environments/`
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📸 Screenshots
 
-```bash
-ng generate --help
-```
+### Pantalla principal
+![Home](./screenshots/home.png)
 
-## Building
+### Resultados de búsqueda
+![Search](./screenshots/search.png)
 
-To build the project run:
+### Historial
+![Search](./screenshots/history.png)
 
-```bash
-ng build
-```
+## 🎓 Aprendizajes
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Este proyecto fue desarrollado como parte del curso Angular: De cero a experto de Udemy, donde practiqué:
 
-## Running unit tests
+- Consumo de APIs REST
+- Gestión de estado en Angular
+- Componentes y módulos
+- Servicios e inyección de dependencias
+- Buenas prácticas de desarrollo
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
